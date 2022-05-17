@@ -1,0 +1,22 @@
+input{
+    width: fit-content;
+    resize:none;
+    box-sizing:border-box;
+
+}
+input:focus{
+    background-color: lightblue;
+}
+form{
+    display:table;
+}
+::placeholder{
+    color:red;
+}
+.red{
+    color:red;
+}
+
+textarea{
+    resize:none;
+}
